@@ -1,0 +1,2590 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"bank_customer\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1203.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "bank_customer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bank customer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "bank_customer": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "customer": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "bank client": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "bank consumer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "bank user": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "bank buyer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "bank patron": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "bank purchaser": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "bank shopper": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "client": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "consumer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "user": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "bank_customer.churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "churn": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bank_customer.column_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "Column1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Column1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.dinheiro_investido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "dinheiro_investido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dinheiro investido": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dinheiro_investido": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.faixa_etaria": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "faixa_etaria"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faixa etaria": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "faixa_etaria": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Faixa Etária": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "bank_customer.faixa_score": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "faixa_score"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faixa score": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "faixa_score": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "faixa notch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "faixa slash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "faixa groove": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "faixa nick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "faixa cut": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "faixa mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "faixa total": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "faixa tally": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "faixa grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "faixa result": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "bank_customer.fl_cartao_cred": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "fl_cartao_cred"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fl cartao cred": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fl_cartao_cred": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Cartão de credito": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "bank_customer.fl_dinheiro_investido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "fl_dinheiro_investido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fl dinheiro investido": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fl_dinheiro_investido": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Dinheiro Investido": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "bank_customer.fl_fidelidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "fl_fidelidade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fl fidelidade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fl_fidelidade": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "fidelidade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Adepto à fidelidade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "bank_customer.id_cliente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "id_cliente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id cliente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id_cliente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification cliente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity cliente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier cliente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential cliente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "bank_customer.idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "idade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bank_customer.info": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "info"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "info": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "data": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gen": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "news": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "intelligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "knowledge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "report": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "word": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "communication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "bank_customer.nome_cliente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "nome_cliente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome cliente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nome_cliente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.numero_de_produto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "numero_de_produtos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "numero de produto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "numero_de_produtos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.porcentagem_churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "porcentagem_churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "porcentagem churn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "porcentagem_churn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.programa_fidelidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "programa_fidelidade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "programa fidelidade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "programa_fidelidade": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.salario_anual_estimado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "salario_anual_estimado"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "salario anual estimado": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "salario_anual_estimado": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.score_credito": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "score_credito"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "score credito": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "score_credito": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.tem_cartao_de_credito": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "tem_cartao_de_credito"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tem cartao de credito": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tem_cartao_de_credito": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.tempo_cliente_ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "tempo_cliente_anos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tempo cliente ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tempo_cliente_anos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bank_customer.v_1_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "_1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_1": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bank_customer.v_2_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank_customer",
+                    "ConceptualProperty": "_2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_2": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.pct_qtd_clientes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "pct_qtd_clientes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pct qtd clientes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pct_qtd_clientes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Distribuição de clientes": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtd_churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd churn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtd_churn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Qtd Clientes - Churn": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_churn_porcentagem": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtd_churn_porcentagem"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd churn porcentagem": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtd_churn_porcentagem": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Taxa Churn": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_clientes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtd_clientes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd clientes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtd_clientes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Quantidade de clientes": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.qtdclientes_allselected": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtdclientes_allselected"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtdclientes allselected": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtdclientes_allselected": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.v__": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "_"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "bank_customer_has_churn": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.churn"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_churns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.churn": {
+                    "Target": {
+                      "Entity": "bank_customer.churn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_column_1": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.column_1"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_column_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.column_1": {
+                    "Target": {
+                      "Entity": "bank_customer.column_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_dinheiro_investido": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.dinheiro_investido"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_dinheiro_investidos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.dinheiro_investido": {
+                    "Target": {
+                      "Entity": "bank_customer.dinheiro_investido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_faixa_etaria": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.faixa_etaria"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_faixa_etarias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.faixa_etaria": {
+                    "Target": {
+                      "Entity": "bank_customer.faixa_etaria"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_faixa_score": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.faixa_score"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_faixa_scores",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.faixa_score": {
+                    "Target": {
+                      "Entity": "bank_customer.faixa_score"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_fl_cartao_cred": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.fl_cartao_cred"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_fl_cartao_cred",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.fl_cartao_cred": {
+                    "Target": {
+                      "Entity": "bank_customer.fl_cartao_cred"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_fl_dinheiro_investido": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.fl_dinheiro_investido"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_fl_dinheiro_investidos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.fl_dinheiro_investido": {
+                    "Target": {
+                      "Entity": "bank_customer.fl_dinheiro_investido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_fl_fidelidade": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.fl_fidelidade"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_fl_fidelidades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.fl_fidelidade": {
+                    "Target": {
+                      "Entity": "bank_customer.fl_fidelidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_id_cliente": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.id_cliente"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_id_clientes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.id_cliente": {
+                    "Target": {
+                      "Entity": "bank_customer.id_cliente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_idade": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.idade"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_idades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.idade": {
+                    "Target": {
+                      "Entity": "bank_customer.idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_info": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.info"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_info",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.info": {
+                    "Target": {
+                      "Entity": "bank_customer.info"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_medida_pct_qtd_clientes": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.pct_qtd_clientes"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_pct_qtd_clientes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "medida.pct_qtd_clientes": {
+                    "Target": {
+                      "Entity": "medida.pct_qtd_clientes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_medida_qtd_churn": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_churn"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_qtd_churn",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "medida.qtd_churn": {
+                    "Target": {
+                      "Entity": "medida.qtd_churn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_medida_qtd_churn_porcentagem": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_churn_porcentagem"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_qtd_churn_porcentagem",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "medida.qtd_churn_porcentagem": {
+                    "Target": {
+                      "Entity": "medida.qtd_churn_porcentagem"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_medida_qtd_clientes": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_clientes"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_qtd_clientes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "medida.qtd_clientes": {
+                    "Target": {
+                      "Entity": "medida.qtd_clientes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_medida_qtdclientes_allselected": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtdclientes_allselected"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_qtdclientes_allselected",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "medida.qtdclientes_allselected": {
+                    "Target": {
+                      "Entity": "medida.qtdclientes_allselected"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_nome_cliente": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.nome_cliente"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_nome_clientes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.nome_cliente": {
+                    "Target": {
+                      "Entity": "bank_customer.nome_cliente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_numero_de_produto": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.numero_de_produto"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_numero_de_produtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.numero_de_produto": {
+                    "Target": {
+                      "Entity": "bank_customer.numero_de_produto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_porcentagem_churn": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.porcentagem_churn"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_porcentagem_churn",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.porcentagem_churn": {
+                    "Target": {
+                      "Entity": "bank_customer.porcentagem_churn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_programa_fidelidade": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.programa_fidelidade"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_programa_fidelidades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.programa_fidelidade": {
+                    "Target": {
+                      "Entity": "bank_customer.programa_fidelidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_salario_anual_estimado": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.salario_anual_estimado"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_salario_anual_estimados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.salario_anual_estimado": {
+                    "Target": {
+                      "Entity": "bank_customer.salario_anual_estimado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_score_credito": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.score_credito"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_score_creditos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.score_credito": {
+                    "Target": {
+                      "Entity": "bank_customer.score_credito"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_tem_cartao_de_credito": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.tem_cartao_de_credito"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_tem_cartao_de_creditos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.tem_cartao_de_credito": {
+                    "Target": {
+                      "Entity": "bank_customer.tem_cartao_de_credito"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_tempo_cliente_ano": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.tempo_cliente_ano"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have_tempo_cliente_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.tempo_cliente_ano": {
+                    "Target": {
+                      "Entity": "bank_customer.tempo_cliente_ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_v_1_1": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.v_1_1"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have__1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.v_1_1": {
+                    "Target": {
+                      "Entity": "bank_customer.v_1_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bank_customer_has_v_2_2": {
+                "Binding": {
+                  "ConceptualEntity": "bank_customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bank_customer.v_2_2"
+                      },
+                      "Subject": {
+                        "Role": "bank_customer"
+                      }
+                    },
+                    "ID": "bank_customers_have__2",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bank_customer": {
+                    "Target": {
+                      "Entity": "bank_customer"
+                    }
+                  },
+                  "bank_customer.v_2_2": {
+                    "Target": {
+                      "Entity": "bank_customer.v_2_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_v__": {
+                "Binding": {
+                  "ConceptualEntity": "medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.v__"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have__",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.v__": {
+                    "Target": {
+                      "Entity": "medida.v__"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "bank_customer",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_cliente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f97ca204-cd6a-45fc-a10a-4258018d394c",
+            "sourceColumn": "id_cliente",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nome_cliente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f2c39fbd-925d-479c-b7b0-4b8c2bbbfc70",
+            "sourceColumn": "nome_cliente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "score_credito",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0357070f-baa6-46ee-ab80-2cc0678ce99a",
+            "sourceColumn": "score_credito",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "info",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4d3dcb3b-fe42-41ee-bc3c-c20e19b55e8a",
+            "sourceColumn": "info",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "idade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5a0106df-de98-4682-b46d-705fdf0d3fa0",
+            "sourceColumn": "idade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tempo_cliente_anos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4db39aea-1e90-41d3-8ef6-f800b833b560",
+            "sourceColumn": "tempo_cliente_anos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "dinheiro_investido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7038a0fc-9f3c-4c96-8b9b-0688d2deadd2",
+            "sourceColumn": "dinheiro_investido",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "numero_de_produtos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3e273268-46e9-461e-9b02-97632b194668",
+            "sourceColumn": "numero_de_produtos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tem_cartao_de_credito",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f37d3141-0481-4d9e-8c93-23bf40ce3d3e",
+            "sourceColumn": "tem_cartao_de_credito",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "programa_fidelidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "af3b0860-9cc3-4ac1-872c-ca7377e54bc5",
+            "sourceColumn": "programa_fidelidade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "salario_anual_estimado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7b05f4f1-6ef2-4010-892b-cd0d7ce06063",
+            "sourceColumn": "salario_anual_estimado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "churn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4ad223c1-7eb2-4390-b337-785f59301e48",
+            "sourceColumn": "churn",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "fl_fidelidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "IF(bank_customer[programa_fidelidade] == 1, \"Sim\", \"Não\") ",
+            "isDataTypeInferred": true,
+            "lineageTag": "f1ea6b37-5b09-47ce-a0e7-070e3019f267",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "fl_cartao_cred",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "IF(bank_customer[tem_cartao_de_credito] == 1, \"Sim\", \"Não\") ",
+            "isDataTypeInferred": true,
+            "lineageTag": "69b0e402-3f57-49a2-8afe-a8332e1e838d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "fl_dinheiro_investido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "IF(bank_customer[dinheiro_investido] > 0, \"Sim\", \"Não\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "68dedfe4-9e7c-43ff-8ed4-bd06ae2c88c3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Column1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c1d70c17-e233-4e07-8b4d-2c6d2487a6d2",
+            "sourceColumn": "Column1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "_1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "087d61bb-a3bb-4000-bf22-ed24b3ade6c2",
+            "sourceColumn": "_1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6791e5ae-e208-4418-978a-ff41cb2848a7",
+            "sourceColumn": "_2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_etaria",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52608194-2b92-47d6-ae0b-3595baebdcff",
+            "sourceColumn": "faixa_etaria",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "963a4bec-821d-4a4f-bcfe-7637fdbfb685",
+            "sourceColumn": "faixa_score",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "dc621940-d519-4407-91b8-151edd9f7419",
+        "measures": [
+          {
+            "name": "porcentagem_churn",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DIVIDE(SUM(bank_customer[churn]), SUM(bank_customer[churn])) * 100 ",
+            "lineageTag": "220bb245-4b0e-43cd-8353-3f7edecf4dbc"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "bank_customer",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"C:\\Users\\Junior\\Documents\\Power BI Curso Preditiva\\bank_customer.csv\"),[Delimiter=\";\", Columns=15, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"id_cliente\", Int64.Type}, {\"nome_cliente\", type text}, {\"score_credito\", Int64.Type}, {\"info\", type text}, {\"idade\", Int64.Type}, {\"tempo_cliente_anos\", Int64.Type}, {\"dinheiro_investido\", Int64.Type}, {\"numero_de_produtos\", Int64.Type}, {\"tem_cartao_de_credito\", Int64.Type}, {\"programa_fidelidade\", Int64.Type}, {\"salario_anual_estimado\", Int64.Type}, {\"churn\", Int64.Type}, {\"\", type text}, {\"_1\", type text}, {\"_2\", type text}}),",
+                "    #\"Coluna Condicional Adicionada\" = Table.AddColumn(#\"Tipo Alterado\", \"faixa_etaria\", each if [idade] <= 25 then \"18 a 25 anos\" else if [idade] <= 35 then \"26 a 35 anos\" else if [idade] <= 45 then \"36 a 45 anos\" else if [idade] <= 65 then \"46 a 55 anos\" else \"56 anos (ou +)\"),",
+                "    #\"Coluna Condicional Adicionada1\" = Table.AddColumn(#\"Coluna Condicional Adicionada\", \"faixa_score\", each if [score_credito] <= 475 then \"0 a 475\" else if [score_credito] <= 600 then \"476 a 600\" else if [score_credito] <= 725 then \"601 a 725\" else \"725 (ou +)\")",
+                "in",
+                "    #\"Coluna Condicional Adicionada1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_c8bdbb33-a2c7-41a4-b44e-a993dad5d22d",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "bca08c5f-186f-4782-a30b-4a7c5922ad49",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "0ea31163-0aa7-4f87-b466-020d49f957ea",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "41de6213-807b-420c-9d7e-f5dfa7628428",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "eabbd721-9fc1-41f5-9a8d-5a783b13465b",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9dc82037-79c0-4e48-ae18-a0e55aa047b2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "8fa8304b-2409-4079-bc86-9a4e9e33c2e4",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9a12fe9d-4321-4c6d-ba8e-bc95ad4d1ec7",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "3c7a5152-3192-40c7-bab8-e6336bfbc94e",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "b8662d52-34aa-4ce6-bd47-5e1132948ec2",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "fd542401-ff3a-4542-b8d9-2989fe50ab7c",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "8f87d7bf-fc6a-42b6-a34b-9c615d723475",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "f13f9129-e30c-4202-8e34-cb6a5450bd70"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "98a3a313-7bb4-4d93-80f1-5cd3eace7bc3",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_c8bdbb33-a2c7-41a4-b44e-a993dad5d22d",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "medidas",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "afd407e0e406488da8f4e5a0136fb38b"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "_",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "6b5422eb-7d15-4d0a-bfcc-07176ff15d54",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "8f63eef1-7230-40ce-8f15-cc8be09b0e91",
+        "measures": [
+          {
+            "name": "qtd_churn",
+            "expression": "CALCULATE(DISTINCTCOUNT(bank_customer[id_cliente]), bank_customer[churn] == 1)",
+            "formatString": "#,0",
+            "lineageTag": "53f285f4-8b38-4565-ac75-8c57ffd77b60"
+          },
+          {
+            "name": "qtd_clientes",
+            "expression": "DISTINCTCOUNT(bank_customer[id_cliente])",
+            "formatString": "#,0",
+            "lineageTag": "d3bbb392-da6c-4ba4-b980-580dbd7da839"
+          },
+          {
+            "name": "qtd_churn_porcentagem",
+            "expression": "DIVIDE([qtd_churn], [qtd_clientes])",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "854b18a3-41da-4ba2-bc1e-64b21ad071a6"
+          },
+          {
+            "name": "qtdclientes_allselected",
+            "expression": "CALCULATE([qtd_clientes], ALLSELECTED(bank_customer))",
+            "formatString": "0",
+            "lineageTag": "f78dc0fc-eee8-4431-a543-5c330c6c0c23"
+          },
+          {
+            "name": "pct_qtd_clientes",
+            "expression": "[qtd_clientes] / [qtdclientes_allselected] ",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "ae889d6d-852b-40d4-bace-7f9f729f8589"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "medidas",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

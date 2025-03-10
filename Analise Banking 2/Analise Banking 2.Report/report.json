@@ -1,0 +1,195 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Index",
+      "displayOption": 2,
+      "filters": "[]",
+      "height": 850.00,
+      "name": "f51fa1cfb3a14b643832",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"06089adac4a49d0b4208\",\"layouts\":[{\"id\":0,\"position\":{\"x\":-0.25862068965516327,\"y\":140.9852364475203,\"z\":12000,\"width\":174.20991926182236,\"height\":135.82468281430218,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"bank_customer.fl_cartao_cred\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"fl_cartao_cred\"},\"Name\":\"bank_customer.fl_cartao_cred\",\"NativeReferenceName\":\"Cartão de credito\"}]},\"columnProperties\":{\"bank_customer.fl_cartao_cred\":{\"displayName\":\"Cartão de credito\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 135.82,
+          "width": 174.21,
+          "x": -0.26,
+          "y": 140.99,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"159a15a645a03360088e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":403.81589958159,\"y\":9.640167364016737,\"z\":17000,\"width\":606.2594142259414,\"height\":61.05439330543933,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análise Exploratória Banking II\",\"textStyle\":{\"fontFamily\":\"Georgia\",\"fontSize\":\"28pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 61.05,
+          "width": 606.26,
+          "x": 403.82,
+          "y": 9.64,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"15a786433cb79d53b6b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":-0.25862068965516327,\"y\":660.6622837370232,\"z\":15000,\"width\":174.20991926182236,\"height\":135.82468281430218,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"bank_customer.fl_dinheiro_investido\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"fl_dinheiro_investido\"},\"Name\":\"bank_customer.fl_dinheiro_investido\",\"NativeReferenceName\":\"Dinheiro Investido\"}]},\"columnProperties\":{\"bank_customer.fl_dinheiro_investido\":{\"displayName\":\"Dinheiro Investido\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 135.82,
+          "width": 174.21,
+          "x": -0.26,
+          "y": 660.66,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"27c09430a08469d41ae9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1.7999999999999998,\"y\":0,\"z\":16000,\"width\":1278,\"height\":90,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 90.00,
+          "width": 1278.00,
+          "x": 1.80,
+          "y": 0.00,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"2c28509e48e942245857\",\"layouts\":[{\"id\":0,\"position\":{\"x\":190.1912062999646,\"y\":276.8099192618227,\"z\":4000,\"width\":363.1833910034602,\"height\":240.6459054209919,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"bank_customer.faixa_etaria\",\"active\":true}],\"Y\":[{\"queryRef\":\"medidas.pct_qtd_clientes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_etaria\"},\"Name\":\"bank_customer.faixa_etaria\",\"NativeReferenceName\":\"faixa_etaria\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"pct_qtd_clientes\"},\"Name\":\"medidas.pct_qtd_clientes\",\"NativeReferenceName\":\"pct_qtd_clientes\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_etaria\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Distribuição de clientes por faixa etária'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.65,
+          "width": 363.18,
+          "x": 190.19,
+          "y": 276.81,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"3bdc04ea4786bed11645\",\"layouts\":[{\"id\":0,\"position\":{\"x\":249.24541621922606,\"y\":143.93794694348338,\"z\":1000,\"width\":289.36562860438295,\"height\":94.48673587081892,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"medidas.qtd_clientes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_clientes\"},\"Name\":\"medidas.qtd_clientes\",\"NativeReferenceName\":\"Quantidade de clientes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_clientes\"}}}]},\"columnProperties\":{\"medidas.qtd_clientes\":{\"displayName\":\"Quantidade de clientes\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"35D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font_light, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 94.49,
+          "width": 289.37,
+          "x": 249.25,
+          "y": 143.94,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"4ffaa14ea29b7a593ba9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":174.35215946843854,\"y\":506.04651162790697,\"z\":10000,\"width\":1071.6279069767443,\"height\":49.6124031007752,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 49.61,
+          "width": 1071.63,
+          "x": 174.35,
+          "y": 506.05,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"65f6b0ed2994edd73d46\",\"layouts\":[{\"id\":0,\"position\":{\"x\":158.4,\"y\":90,\"z\":11000,\"width\":32.4,\"height\":732.6,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 732.60,
+          "width": 32.40,
+          "x": 158.40,
+          "y": 90.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"7023118f03035d813176\",\"layouts\":[{\"id\":0,\"position\":{\"x\":190.19120629996422,\"y\":555.8410611303335,\"z\":6000,\"width\":363.1833910034602,\"height\":240.6459054209919,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"bank_customer.faixa_etaria\",\"active\":true}],\"Y\":[{\"queryRef\":\"medidas.qtd_churn_porcentagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_etaria\"},\"Name\":\"bank_customer.faixa_etaria\",\"NativeReferenceName\":\"faixa_etaria\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"},\"Name\":\"medidas.qtd_churn_porcentagem\",\"NativeReferenceName\":\"qtd_churn_porcentagem\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_etaria\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"y1AxisReferenceLine\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Ref'\"}}},\"value\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"medidas\"}},\"Property\":\"qtd_churn_porcentagem\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'front'\"}}},\"dataLabelShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"dataLabelHorizontalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'right'\"}}},\"dataLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"dataLabelText\":{\"expr\":{\"Literal\":{\"Value\":\"'ValueAndName'\"}}}},\"selector\":{\"id\":\"1\"}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Taxa de Churn por faixa etaria'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.65,
+          "width": 363.18,
+          "x": 190.19,
+          "y": 555.84,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"83b4dc88b3a610a3cd14\",\"layouts\":[{\"id\":0,\"position\":{\"x\":-0.25862068965516327,\"y\":411.1582468281434,\"z\":14000,\"width\":174.20991926182236,\"height\":218.50057670126873,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"bank_customer.faixa_etaria\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_etaria\"},\"Name\":\"bank_customer.faixa_etaria\",\"NativeReferenceName\":\"Faixa Etária\"}]},\"columnProperties\":{\"bank_customer.faixa_etaria\":{\"displayName\":\"Faixa Etária\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 218.50,
+          "width": 174.21,
+          "x": -0.26,
+          "y": 411.16,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"8998624a34d5ab7a8a36\",\"layouts\":[{\"id\":0,\"position\":{\"x\":553.3745973034244,\"y\":555.8410611303335,\"z\":7000,\"width\":363.1833910034602,\"height\":240.6459054209919,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"bank_customer.fl_fidelidade\",\"active\":true}],\"Y\":[{\"queryRef\":\"medidas.qtd_churn_porcentagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0},{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"fl_fidelidade\"},\"Name\":\"bank_customer.fl_fidelidade\",\"NativeReferenceName\":\"fl_fidelidade\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"},\"Name\":\"medidas.qtd_churn_porcentagem\",\"NativeReferenceName\":\"qtd_churn_porcentagem\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"y1AxisReferenceLine\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Ref'\"}}},\"value\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"medidas\"}},\"Property\":\"qtd_churn_porcentagem\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'front'\"}}},\"dataLabelShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"dataLabelHorizontalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'right'\"}}},\"dataLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"dataLabelText\":{\"expr\":{\"Literal\":{\"Value\":\"'ValueAndName'\"}}}},\"selector\":{\"id\":\"1\"}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Taxa de Churn por adesão a fidelidade'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.65,
+          "width": 363.18,
+          "x": 553.37,
+          "y": 555.84,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"89eca326858049830898\",\"layouts\":[{\"id\":0,\"position\":{\"x\":599.1416099908522,\"y\":143.93794694348338,\"z\":2000,\"width\":317.4163783160323,\"height\":94.48673587081892,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"medidas.qtd_churn\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn\"},\"Name\":\"medidas.qtd_churn\",\"NativeReferenceName\":\"Qtd Clientes - Churn\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn\"}}}]},\"columnProperties\":{\"medidas.qtd_churn\":{\"displayName\":\"Qtd Clientes - Churn\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"35D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font_light, helvetica, arial, sans-serif'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 94.49,
+          "width": 317.42,
+          "x": 599.14,
+          "y": 143.94,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"9266419311035b0e05d1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":957.8959352503678,\"y\":143.93794694348338,\"z\":3000,\"width\":259.838523644752,\"height\":94.48673587081892,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"medidas.qtd_churn_porcentagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"},\"Name\":\"medidas.qtd_churn_porcentagem\",\"NativeReferenceName\":\"Taxa Churn\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"}}}]},\"columnProperties\":{\"medidas.qtd_churn_porcentagem\":{\"displayName\":\"Taxa Churn\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"35D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font_light, helvetica, arial, sans-serif'\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 94.49,
+          "width": 259.84,
+          "x": 957.90,
+          "y": 143.94,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"db0bc508011ee13869d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":916.5579883068846,\"y\":555.8410611303335,\"z\":8000,\"width\":363.1833910034602,\"height\":240.6459054209919,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Y\":[{\"queryRef\":\"medidas.qtd_churn_porcentagem\"}],\"Category\":[{\"queryRef\":\"bank_customer.faixa_score\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0},{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"},\"Name\":\"medidas.qtd_churn_porcentagem\",\"NativeReferenceName\":\"qtd_churn_porcentagem\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_score\"},\"Name\":\"bank_customer.faixa_score\",\"NativeReferenceName\":\"faixa_score\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"qtd_churn_porcentagem\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"y1AxisReferenceLine\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Ref'\"}}},\"value\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"medidas\"}},\"Property\":\"qtd_churn_porcentagem\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'front'\"}}},\"dataLabelShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"dataLabelHorizontalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'right'\"}}},\"dataLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"dataLabelText\":{\"expr\":{\"Literal\":{\"Value\":\"'ValueAndName'\"}}},\"dataLabelVerticalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'above'\"}}}},\"selector\":{\"id\":\"1\"}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Taxa de churn por faixa de score de crédito'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.65,
+          "width": 363.18,
+          "x": 916.56,
+          "y": 555.84,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"e28d371b3d351b109784\",\"layouts\":[{\"id\":0,\"position\":{\"x\":-0.25862068965516327,\"y\":276.8099192618227,\"z\":13000,\"width\":174.20991926182236,\"height\":135.82468281430218,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"bank_customer.fl_fidelidade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"fl_fidelidade\"},\"Name\":\"bank_customer.fl_fidelidade\",\"NativeReferenceName\":\"Adepto à fidelidade\"}]},\"columnProperties\":{\"bank_customer.fl_fidelidade\":{\"displayName\":\"Adepto à fidelidade\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}},\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 135.82,
+          "width": 174.21,
+          "x": -0.26,
+          "y": 276.81,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"f57e8db9ab058bc160b7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":206.43111402776123,\"y\":114.41084198385228,\"z\":0,\"width\":1027.5432525951558,\"height\":152.06459054209918,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"15L\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 152.06,
+          "width": 1027.54,
+          "x": 206.43,
+          "y": 114.41,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f6281ba85540b7a10589\",\"layouts\":[{\"id\":0,\"position\":{\"x\":916.5579883068846,\"y\":279.7626297577859,\"z\":9000,\"width\":363.1833910034602,\"height\":240.6459054209919,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"bank_customer.faixa_score\",\"active\":true}],\"Y\":[{\"queryRef\":\"medidas.pct_qtd_clientes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_score\"},\"Name\":\"bank_customer.faixa_score\",\"NativeReferenceName\":\"faixa_score\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"pct_qtd_clientes\"},\"Name\":\"medidas.pct_qtd_clientes\",\"NativeReferenceName\":\"pct_qtd_clientes\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"faixa_score\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"borderShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Distribuição de clientes por faixa etária'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.65,
+          "width": 363.18,
+          "x": 916.56,
+          "y": 279.76,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"f9a5c810893634891bc1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":553.3745973034246,\"y\":276.8099192618227,\"z\":5000,\"width\":363.1833910034602,\"height\":240.6459054209919,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"bank_customer.fl_fidelidade\",\"active\":true}],\"Y\":[{\"queryRef\":\"medidas.pct_qtd_clientes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bank_customer\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"fl_fidelidade\"},\"Name\":\"bank_customer.fl_fidelidade\",\"NativeReferenceName\":\"fidelidade\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"pct_qtd_clientes\"},\"Name\":\"medidas.pct_qtd_clientes\",\"NativeReferenceName\":\"Distribuição de clientes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"pct_qtd_clientes\"}}}]},\"columnProperties\":{\"medidas.pct_qtd_clientes\":{\"displayName\":\"Distribuição de clientes\"},\"bank_customer.fl_fidelidade\":{\"displayName\":\"fidelidade\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Fidelidade'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'preferOutside'\"}}},\"overflow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.65,
+          "width": 363.18,
+          "x": 553.37,
+          "y": 276.81,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
