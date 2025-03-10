@@ -1,0 +1,278 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 578,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 58.8125
+          },
+          "nodeIndex": "orderlines",
+          "nodeLineageTag": "8795e6f8-0558-4704-bbdb-919fa6f87b00",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 106.8125
+          },
+          "nodeIndex": "bikeshops",
+          "nodeLineageTag": "511d8be5-f57a-4ee0-b11f-4b330fb4562b",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 578,
+            "y": 60.8125
+          },
+          "nodeIndex": "bikes",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 862,
+            "y": 65.8125
+          },
+          "nodeIndex": "new_bikes",
+          "nodeLineageTag": "bc4d9d59-a5a5-44c6-85ff-4c93058ba992",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1149.1602022971042,
+            "y": 326.89090903648361
+          },
+          "nodeIndex": "bikes_atualizadas",
+          "nodeLineageTag": "37d618e0-bab9-4e0e-9383-d4452e20f77b",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 1714,
+            "y": 25.3125
+          },
+          "nodeIndex": "public titanic",
+          "nodeLineageTag": "37fa2778-eb8f-4b4f-b850-7a70351e857c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1998,
+            "y": 111.3125
+          },
+          "nodeIndex": "resumo",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 2282,
+            "y": 25.3125
+          },
+          "nodeIndex": "bank_customer",
+          "nodeLineageTag": "cf1e450d-cb66-4f2d-9df9-19fb36fc0242",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 2566,
+            "y": 25.3125
+          },
+          "nodeIndex": "db_churn dim_clientes",
+          "nodeLineageTag": "a154fb3c-dcf6-4d6e-bec0-a5d0430ef41b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 3418,
+            "y": 99.3125
+          },
+          "nodeIndex": "db_pizza_sales orders",
+          "nodeLineageTag": "d983fe17-5bf9-446b-92d6-177ab73382db",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 3144,
+            "y": 77.3125
+          },
+          "nodeIndex": "db_pizza_sales pizza_types",
+          "nodeLineageTag": "31c1e25b-ab65-45f9-9968-b479dcc1c4b4",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 2860,
+            "y": 77.3125
+          },
+          "nodeIndex": "db_pizza_sales pizzas",
+          "nodeLineageTag": "f555df99-6a26-4aba-a271-68877acf2341",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 3731.7932987985946,
+            "y": 379.99744654425712
+          },
+          "nodeIndex": "db_parchnposey accounts",
+          "nodeLineageTag": "3448386c-981d-4a01-9dba-f62d883c8738",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 18
+        },
+        {
+          "location": {
+            "x": 4262.6373161280681,
+            "y": 350.47549941266317
+          },
+          "nodeIndex": "db_parchnposey orders",
+          "nodeLineageTag": "cbc34e95-1ad6-46a3-8aa1-05b63b42e6fc",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 15
+        },
+        {
+          "location": {
+            "x": 3231.2069818890091,
+            "y": 702.17847597188768
+          },
+          "nodeIndex": "db_parchnposey region",
+          "nodeLineageTag": "d667006d-af7d-4b08-94e3-f4a1c1940c66",
+          "size": {
+            "height": 203.47635695643913,
+            "width": 325.3661163156894
+          },
+          "zIndex": 14
+        },
+        {
+          "location": {
+            "x": 3689.9943348407628,
+            "y": 702.09579549132559
+          },
+          "nodeIndex": "db_parchnposey sales_reps",
+          "nodeLineageTag": "c367eb46-75b6-40b6-a085-175f4134fce4",
+          "size": {
+            "height": 197.6830581578447,
+            "width": 305.50391711662633
+          },
+          "zIndex": 17
+        },
+        {
+          "location": {
+            "x": 3157.6579477592763,
+            "y": 380.24548798594361
+          },
+          "nodeIndex": "db_parchnposey web_events",
+          "nodeLineageTag": "58a3aeda-862e-49a3-97fe-cb1d8c348663",
+          "size": {
+            "height": 261.40745655597061,
+            "width": 426.66333223091078
+          },
+          "zIndex": 16
+        },
+        {
+          "location": {
+            "x": 4546.6373161280681,
+            "y": 357.98366646416343
+          },
+          "nodeIndex": "resumo_por_categ_e_material",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4830.6373161280681,
+            "y": 304.23366646416343
+          },
+          "nodeIndex": "orderlines_mesclada",
+          "nodeLineageTag": "fb5f3a21-93ed-40b7-b810-1edaaf801e84",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5114.6373161280681,
+            "y": 348.60866646416343
+          },
+          "nodeIndex": "calendario",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 63.287087723233981,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

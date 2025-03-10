@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Painel_Curso_Preditiva.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
