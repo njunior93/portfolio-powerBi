@@ -1,0 +1,4974 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"datatran2017\",\"dias_semana\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1203.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "datatran_2017": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "datatran 2017": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "datatran2017": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.br": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "br"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "br": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.causa_acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "causa_acidente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "causa acidente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "causa_acidente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Causa do acidente": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.classificacao_acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "classificacao_acidente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "classificacao acidente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "classificacao_acidente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.condicao_metereologica": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "condicao_metereologica"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "condicao metereologica": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "condicao_metereologica": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.data_inversa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "data_inversa"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data inversa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data_inversa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.data_inversa.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.data_inversa.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.data_inversa.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.data_inversa.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.dia_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "dia_semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dia_semana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Dia da semana": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "datatran_2017.fase_dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "fase_dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fase dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fase_dia": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.ferido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "feridos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ferido": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.feridos_graves": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "feridos_graves"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "feridos graves": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ferido graves": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "feridos_graves": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ferido crypt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "ferido mausoleum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "ferido tomb": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ferido vault": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ferido sepulcher": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.feridos_leve": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "feridos_leves"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "feridos leve": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ferido leve": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "feridos_leves": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.hora": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "Hora"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hora": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.ignorado": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "ignorados"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ignorado": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.ileso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "ilesos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ileso": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.km": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "km"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "km": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.latitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "latitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitude": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "leeway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "freedom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "autonomy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "liberty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "opportunity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "room": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.longitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "longitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitude": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.morto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "mortos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "morto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "municipio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "municipio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "pessoas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pessoa": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.sentido_via": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "sentido_via"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sentido via": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sentido_via": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Sentido da via": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.tipo_acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "tipo_acidente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo acidente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_acidente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Tipo de acidente": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.tipo_pista": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "tipo_pista"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo pista": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_pista": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.tracado_via": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "tracado_via"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tracado via": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tracado_via": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.uf": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "uf"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "uf": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.uso_solo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "uso_solo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "uso solo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "uso_solo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.veiculo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "veiculos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "veiculo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "datatran_2017.vitima_fatal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "datatran2017",
+                    "ConceptualProperty": "Vitima_fatal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vitima fatal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Vitima_fatal": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dias_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dias_semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dias semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dias_semana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dias_semana.dia_da_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dias_semana",
+                    "ConceptualProperty": "dia_da_semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia da semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dia_da_semana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dias_semana.id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dias_semana",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "Column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pilaster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pillar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "post": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "support": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stake": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "buttress": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "underpinning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "contribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_acidentes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtd_acidentes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd acidentes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtd_acidentes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_feridos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtd_feridos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd feridos": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtd_feridos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_mortos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "qtd_mortos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd mortos": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtd_mortos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.ranking": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "ranking"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ranking": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "classification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "standing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "level": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "medida.titulo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "titulo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "titulo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.top_cidades": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "top_cidades"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "top cidades": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "top_cidades": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "best cidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "first cidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "leading cidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "maximum cidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "peak cidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "upper cidade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.tx_mortos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "medidas",
+                    "ConceptualProperty": "tx_mortos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tx mortos": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tx_mortos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Mortalidade": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "top_n": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TOP N"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "top n": {
+                      "State": "Generated",
+                      "Weight": 0.87
+                    }
+                  },
+                  {
+                    "n": {
+                      "State": "Generated",
+                      "Weight": 0.8439
+                    }
+                  },
+                  {
+                    "best n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "first n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "leading n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "maximum n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "peak n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "upper n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "top_n.top_n": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TOP N",
+                    "ConceptualProperty": "TOP N"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "top n": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "n": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "best n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "first n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "leading n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "maximum n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "peak n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "upper n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "top_n.valor_TOP_n": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TOP N",
+                    "ConceptualProperty": "Valor TOP N"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor TOP n": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "n": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "valor best n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "valor first n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "valor leading n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "valor maximum n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "valor peak n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "valor upper n": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "datatran_2017_data_inversa_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa"
+                      }
+                    },
+                    "ID": "data_inversas_have_hierarquia_de_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_ano_has_datatran_2017_data_inversa_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "ID": "anos_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_anos",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_mê_has_datatran_2017_data_inversa_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "ID": "dias_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "dias_are_in_mê",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_data_inversa_variation_hierarquia_de_data_trimestre_has_datatran_2017_data_inversa_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "mê_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_br": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.br"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_br",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.br": {
+                    "Target": {
+                      "Entity": "datatran_2017.br"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_causa_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.causa_acidente"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_causa_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.causa_acidente": {
+                    "Target": {
+                      "Entity": "datatran_2017.causa_acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_classificacao_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.classificacao_acidente"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_classificacao_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.classificacao_acidente": {
+                    "Target": {
+                      "Entity": "datatran_2017.classificacao_acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_condicao_metereologica": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.condicao_metereologica"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_condicao_metereologicas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.condicao_metereologica": {
+                    "Target": {
+                      "Entity": "datatran_2017.condicao_metereologica"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_data_inversa": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.data_inversa"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_data_inversas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.data_inversa": {
+                    "Target": {
+                      "Entity": "datatran_2017.data_inversa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_dias_semana": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dias_semana"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_dias_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017"
+                      },
+                      "Subject": {
+                        "Role": "dias_semana"
+                      }
+                    },
+                    "ID": "dias_semanas_have_datatran_2017",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "dias_semana": {
+                    "Target": {
+                      "Entity": "dias_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_fase_dia": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.fase_dia"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_fase_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.fase_dia": {
+                    "Target": {
+                      "Entity": "datatran_2017.fase_dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_ferido": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.ferido"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_feridos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.ferido": {
+                    "Target": {
+                      "Entity": "datatran_2017.ferido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_feridos_graves": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.feridos_graves"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_feridos_graves",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.feridos_graves": {
+                    "Target": {
+                      "Entity": "datatran_2017.feridos_graves"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_feridos_leve": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.feridos_leve"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_feridos_leves",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.feridos_leve": {
+                    "Target": {
+                      "Entity": "datatran_2017.feridos_leve"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_hora": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.hora"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_horas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.hora": {
+                    "Target": {
+                      "Entity": "datatran_2017.hora"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_id": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.id"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ids_are_names_IDs_of_datatran_2017",
+                    "Name": {
+                      "Name": {
+                        "Role": "datatran_2017.id"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.id": {
+                    "Target": {
+                      "Entity": "datatran_2017.id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_ignorado": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.ignorado"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_ignorados",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.ignorado": {
+                    "Target": {
+                      "Entity": "datatran_2017.ignorado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_ileso": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.ileso"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_ilesos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.ileso": {
+                    "Target": {
+                      "Entity": "datatran_2017.ileso"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_km": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.km"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_km",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.km": {
+                    "Target": {
+                      "Entity": "datatran_2017.km"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_latitude": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.latitude"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_latitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.latitude": {
+                    "Target": {
+                      "Entity": "datatran_2017.latitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_longitude": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.longitude"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_longitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.longitude": {
+                    "Target": {
+                      "Entity": "datatran_2017.longitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_medida_qtd_acidentes": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_acidentes"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_qtd_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "medida.qtd_acidentes": {
+                    "Target": {
+                      "Entity": "medida.qtd_acidentes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_medida_qtd_feridos": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_feridos"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_qtd_feridos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "medida.qtd_feridos": {
+                    "Target": {
+                      "Entity": "medida.qtd_feridos"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_medida_qtd_mortos": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_mortos"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_qtd_mortos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "medida.qtd_mortos": {
+                    "Target": {
+                      "Entity": "medida.qtd_mortos"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_medida_ranking": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.ranking"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_ranking",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "medida.ranking": {
+                    "Target": {
+                      "Entity": "medida.ranking"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_medida_tx_mortos": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.tx_mortos"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_tx_mortos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "medida.tx_mortos": {
+                    "Target": {
+                      "Entity": "medida.tx_mortos"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_morto": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.morto"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_mortos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.morto": {
+                    "Target": {
+                      "Entity": "datatran_2017.morto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.municipio"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_municipios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.municipio": {
+                    "Target": {
+                      "Entity": "datatran_2017.municipio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.pessoa"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.pessoa": {
+                    "Target": {
+                      "Entity": "datatran_2017.pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_sentido_via": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.sentido_via"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_sentido_via",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.sentido_via": {
+                    "Target": {
+                      "Entity": "datatran_2017.sentido_via"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_tipo_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.tipo_acidente"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_tipo_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.tipo_acidente": {
+                    "Target": {
+                      "Entity": "datatran_2017.tipo_acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_tipo_pista": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.tipo_pista"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_tipo_pistas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.tipo_pista": {
+                    "Target": {
+                      "Entity": "datatran_2017.tipo_pista"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_tracado_via": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.tracado_via"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_tracado_via",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.tracado_via": {
+                    "Target": {
+                      "Entity": "datatran_2017.tracado_via"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_uf": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.uf"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_ufs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.uf": {
+                    "Target": {
+                      "Entity": "datatran_2017.uf"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_uso_solo": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.uso_solo"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_uso_solos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.uso_solo": {
+                    "Target": {
+                      "Entity": "datatran_2017.uso_solo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_veiculo": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.veiculo"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.veiculo": {
+                    "Target": {
+                      "Entity": "datatran_2017.veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "datatran_2017_has_vitima_fatal": {
+                "Binding": {
+                  "ConceptualEntity": "datatran2017"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "datatran_2017.vitima_fatal"
+                      },
+                      "Subject": {
+                        "Role": "datatran_2017"
+                      }
+                    },
+                    "ID": "datatran_2017_have_vitima_fatal",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "datatran_2017": {
+                    "Target": {
+                      "Entity": "datatran_2017"
+                    }
+                  },
+                  "datatran_2017.vitima_fatal": {
+                    "Target": {
+                      "Entity": "datatran_2017.vitima_fatal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dias_semana_has_dia_da_semana": {
+                "Binding": {
+                  "ConceptualEntity": "dias_semana"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dias_semana.dia_da_semana"
+                      },
+                      "Subject": {
+                        "Role": "dias_semana"
+                      }
+                    },
+                    "ID": "dias_semanas_have_dia_da_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dias_semana": {
+                    "Target": {
+                      "Entity": "dias_semana"
+                    }
+                  },
+                  "dias_semana.dia_da_semana": {
+                    "Target": {
+                      "Entity": "dias_semana.dia_da_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dias_semana_has_id": {
+                "Binding": {
+                  "ConceptualEntity": "dias_semana"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dias_semana.id"
+                      },
+                      "Subject": {
+                        "Role": "dias_semana"
+                      }
+                    },
+                    "ID": "dias_semanas_have_ids",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ids_are_names_IDs_of_dias_semanas",
+                    "Name": {
+                      "Name": {
+                        "Role": "dias_semana.id"
+                      },
+                      "Subject": {
+                        "Role": "dias_semana"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dias_semana": {
+                    "Target": {
+                      "Entity": "dias_semana"
+                    }
+                  },
+                  "dias_semana.id": {
+                    "Target": {
+                      "Entity": "dias_semana.id"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_column": {
+                "Binding": {
+                  "ConceptualEntity": "medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.column"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_columns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.column": {
+                    "Target": {
+                      "Entity": "medida.column"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_titulo": {
+                "Binding": {
+                  "ConceptualEntity": "medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.titulo"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_titulo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.titulo": {
+                    "Target": {
+                      "Entity": "medida.titulo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_top_cidades": {
+                "Binding": {
+                  "ConceptualEntity": "medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.top_cidades"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_top_cidades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.top_cidades": {
+                    "Target": {
+                      "Entity": "medida.top_cidades"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "top_n_has_top_n": {
+                "Binding": {
+                  "ConceptualEntity": "TOP N"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "top_n.top_n"
+                      },
+                      "Subject": {
+                        "Role": "top_n"
+                      }
+                    },
+                    "ID": "top_Ns_have_top_Ns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "top_n": {
+                    "Target": {
+                      "Entity": "top_n"
+                    }
+                  },
+                  "top_n.top_n": {
+                    "Target": {
+                      "Entity": "top_n.top_n"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "top_n_has_valor_TOP_n": {
+                "Binding": {
+                  "ConceptualEntity": "TOP N"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "top_n.valor_TOP_n"
+                      },
+                      "Subject": {
+                        "Role": "top_n"
+                      }
+                    },
+                    "ID": "top_Ns_have_valor_TOP_n",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "top_n": {
+                    "Target": {
+                      "Entity": "top_n"
+                    }
+                  },
+                  "top_n.valor_TOP_n": {
+                    "Target": {
+                      "Entity": "top_n.valor_TOP_n"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "322a7898-8ea2-4c2c-b611-5dd828b2a048",
+        "fromColumn": "data_inversa",
+        "fromTable": "datatran2017",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_25a8f6c5-2075-4b7d-8cce-177ed194d4aa"
+      },
+      {
+        "name": "63b3df20-1bce-f8ad-3e37-15d6691231db",
+        "fromColumn": "dia_semana",
+        "fromTable": "datatran2017",
+        "toColumn": "dia_da_semana",
+        "toTable": "dias_semana"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "datatran2017",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b952b4b4-da76-41e3-bfc2-a524b3a17e2e",
+            "sourceColumn": "id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "data_inversa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "03e783db-9274-4cce-9cc6-5a9f70c5c23b",
+            "sourceColumn": "data_inversa",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_25a8f6c5-2075-4b7d-8cce-177ed194d4aa"
+                },
+                "isDefault": true,
+                "relationship": "322a7898-8ea2-4c2c-b611-5dd828b2a048"
+              }
+            ]
+          },
+          {
+            "name": "dia_semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2e2f8375-6550-4935-a55f-961f6dc58b41",
+            "sourceColumn": "dia_semana",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Hora",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7e202076-322d-4c24-bfa0-e430f30eb74b",
+            "sourceColumn": "Hora",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "uf",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d5b9288f-8e11-42bc-a25e-f66c3596bb23",
+            "sourceColumn": "uf",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "br",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aec8e756-7387-4f92-8402-b89bb3501dd7",
+            "sourceColumn": "br",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "km",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "85586b19-104a-4114-991b-3d571ae74adf",
+            "sourceColumn": "km",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d0ab32fc-bb98-4d71-917f-863297cc26f0",
+            "sourceColumn": "municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "causa_acidente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6928d76a-807d-46b2-9a74-acdc9750a148",
+            "sourceColumn": "causa_acidente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_acidente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "11b86d44-5932-4994-8317-906af31aa922",
+            "sourceColumn": "tipo_acidente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "classificacao_acidente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "329c83b1-f787-42c6-8352-84d7d86b8e9b",
+            "sourceColumn": "classificacao_acidente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fase_dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "81ed5fdd-3346-4f9c-b842-3bba450cabbf",
+            "sourceColumn": "fase_dia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sentido_via",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f085ee41-a49e-46d9-8d2e-18313357082a",
+            "sourceColumn": "sentido_via",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "condicao_metereologica",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "941113cc-4352-4c0a-8682-8d7245fee3a8",
+            "sourceColumn": "condicao_metereologica",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_pista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0735232a-4f14-407d-8b4f-067073117ac3",
+            "sourceColumn": "tipo_pista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tracado_via",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e27413b2-04f7-4e7d-b32e-42a5941c907c",
+            "sourceColumn": "tracado_via",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "uso_solo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "628562e0-df9e-4787-9f3a-93c2f7537875",
+            "sourceColumn": "uso_solo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a2946868-bd81-463a-9305-eed5781f434b",
+            "sourceColumn": "latitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "912f3761-124a-472b-a747-767685259a04",
+            "sourceColumn": "longitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "pessoas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "033a4548-d22f-4d10-b3f9-89bd26a98c84",
+            "sourceColumn": "pessoas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mortos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b85990f1-779c-4c62-bc0c-79fea8e32a87",
+            "sourceColumn": "mortos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "feridos_leves",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ebf73929-95dc-4cd6-b2e9-f7a9dd8a630e",
+            "sourceColumn": "feridos_leves",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "feridos_graves",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ba2d1082-c2bf-415a-b1d6-2c0ba044ca2b",
+            "sourceColumn": "feridos_graves",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "feridos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8eb91127-0ab7-4aca-9611-b0a8d2a43acf",
+            "sourceColumn": "feridos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ilesos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a3afb549-3bac-4907-b02d-ccb6a378047d",
+            "sourceColumn": "ilesos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ignorados",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7b73e128-14bd-4543-9dfd-4f5c57495ada",
+            "sourceColumn": "ignorados",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "veiculos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "856784ae-44c8-411c-bafd-e47ad9df7b5e",
+            "sourceColumn": "veiculos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Vitima_fatal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "IF(datatran2017[mortos] > 0, \"Sim\", \"Não\") ",
+            "isDataTypeInferred": true,
+            "lineageTag": "278fd1fe-b5be-470c-9f0e-ecb71135594e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "1a198992-e84f-4078-9206-155d09140306",
+        "partitions": [
+          {
+            "name": "datatran2017",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\Junior\\Documents\\Power BI Curso Preditiva\\Base_Acidentes_Datatran2017.xlsx\"), null, true),",
+                "    datatran2017_Sheet = Fonte{[Item=\"datatran2017\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(datatran2017_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"id\", Int64.Type}, {\"data_inversa\", type date}, {\"dia_semana\", type text}, {\"Hora\", Int64.Type}, {\"uf\", type text}, {\"br\", type any}, {\"km\", type any}, {\"municipio\", type text}, {\"causa_acidente\", type text}, {\"tipo_acidente\", type text}, {\"classificacao_acidente\", type text}, {\"fase_dia\", type text}, {\"sentido_via\", type text}, {\"condicao_metereologica\", type text}, {\"tipo_pista\", type text}, {\"tracado_via\", type text}, {\"uso_solo\", type text}, {\"latitude\", type number}, {\"longitude\", type number}, {\"pessoas\", Int64.Type}, {\"mortos\", Int64.Type}, {\"feridos_leves\", Int64.Type}, {\"feridos_graves\", Int64.Type}, {\"feridos\", Int64.Type}, {\"ilesos\", Int64.Type}, {\"ignorados\", Int64.Type}, {\"veiculos\", Int64.Type}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_ed7d403f-2ae2-4ccf-9232-2a3c453a994b",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "92dff45e-9d9c-4fcd-a422-257d315174cc",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1ab589fa-3cd1-497a-b452-efa3707c9811",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "6af95809-444a-4555-b825-0b88265a2c5c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "f0ad8e62-5de8-425e-a88a-49a748eed060",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "77b1205d-12c9-4497-998a-737773a6f4dd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "d0bcfe37-b13c-4aae-8329-36fb00d46888",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ef1f41ca-d4ea-48c9-8945-b219610d8d42",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "051d8441-3b59-4f8f-b49f-9a723ef1ec9b",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "6ff8ae6a-fe53-4569-b70f-3faf57b4a941",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "0b98f928-f33d-45f4-b206-168555e7ed13",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "4d6557cd-90d9-4096-8480-3a2bfbc93df3",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "b5ac3afa-a69d-457b-b260-e603850601d5"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "7f7b0576-98b0-456e-8844-71a3dbb9d95d",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_ed7d403f-2ae2-4ccf-9232-2a3c453a994b",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_25a8f6c5-2075-4b7d-8cce-177ed194d4aa",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4108ae84-5433-468a-8ac2-d9e5c642a2da",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "31661b36-cb64-4f69-b788-fc2c72d2f266",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "36e726a8-0ee2-4501-9960-f21c6d8b6e2c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "aab7b1da-bea3-4d27-a7c7-1c1aa89f60d3",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9c8756a0-347b-4641-b351-d0a679ac4908",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "e3b4be9d-59fd-41ba-98e7-8f5231b15f55",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "97c6a74b-5aa4-4804-86ea-da780c8024d9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "9abc86f5-954e-4bee-ab05-eb70008ddbab",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "fac8b19f-6ea5-408c-8afe-2eb8789a00c3",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "befd6741-71d0-4e4e-831a-a9f9871f841a",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "beb44e85-1271-4003-850d-1d74057bead8",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "2d8c0682-aba6-4ce9-a5b3-02e39a7a1bcc"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "a888546b-11c4-434c-a518-7c20cc2de1b4",
+        "partitions": [
+          {
+            "name": "LocalDateTable_25a8f6c5-2075-4b7d-8cce-177ed194d4aa",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('datatran2017'[data_inversa])), 1, 1), Date(Year(MAX('datatran2017'[data_inversa])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "medidas",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "5d9e1cc2f9e2400482ba0c413c5cea21"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "40e44449-4780-4fda-b5fc-2a44aa1cfa2e",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "995e2517-b2ba-4d08-9667-6e225bfac3e0",
+        "measures": [
+          {
+            "name": "qtd_acidentes",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": "COUNT(datatran2017[id]) ",
+            "formatString": "0",
+            "lineageTag": "8e55f8e0-6b9a-4fcf-b6b6-8cbcdce1abea"
+          },
+          {
+            "name": "qtd_feridos",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": "CALCULATE(SUM(datatran2017[feridos]), datatran2017[feridos] > 0)",
+            "formatString": "0",
+            "lineageTag": "926c76ff-e542-4c1a-b0b9-802ec38ac74f"
+          },
+          {
+            "name": "qtd_mortos",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": "CALCULATE(SUM(datatran2017[mortos]), datatran2017[mortos] > 0) ",
+            "formatString": "0",
+            "lineageTag": "a25e9c28-cfd9-4a65-956d-1f0a370d76d0"
+          },
+          {
+            "name": "tx_mortos",
+            "expression": [
+              "",
+              "DIVIDE([qtd_mortos], [qtd_acidentes])"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "MathematicalDivision",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0.0%;-0.0%;0.0%",
+            "lineageTag": "a475921f-7569-4583-a769-e4db1a364711"
+          },
+          {
+            "name": "ranking",
+            "expression": "RANKX(ALL(datatran2017[municipio]), [qtd_acidentes]) ",
+            "formatString": "0",
+            "lineageTag": "a0eb45f1-c476-45c8-bc4c-283f5f0243b5"
+          },
+          {
+            "name": "top_cidades",
+            "expression": "SUMX(VALUES(datatran2017[municipio]), IF([ranking] <= SELECTEDVALUE('TOP N'[TOP N]), [qtd_acidentes]))",
+            "formatString": "0",
+            "lineageTag": "ca9485e7-09e7-4807-994c-f4ada743a8f3"
+          },
+          {
+            "name": "titulo",
+            "expression": "\"Top \" & SELECTEDVALUE('TOP N'[TOP N]) & \" cidades\" ",
+            "lineageTag": "da070812-fa5e-4f45-9963-ce43671332a0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "medidas",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "TOP N",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "5e2aa4488f204f97bcb35618193bec4c"
+          }
+        ],
+        "columns": [
+          {
+            "name": "TOP N",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "fadf9b0e-a2a9-4945-a54a-61af7e9f2182",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "2c19a090-e88a-48ca-8aff-f7839a557049",
+        "measures": [
+          {
+            "name": "Valor TOP N",
+            "expression": "SELECTEDVALUE('TOP N'[TOP N])",
+            "formatString": "0",
+            "lineageTag": "68579112-998e-41df-9865-576a7a2817b5"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "TOP N",
+            "mode": "import",
+            "source": {
+              "expression": "GENERATESERIES(1, 10, 1)",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dias_semana",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4d457ef7-d8d2-433c-a9b4-5c2b951bb329",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dia_da_semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aa316bf1-74b3-43b7-b237-f146b4ec3df7",
+            "sourceColumn": "dia_da_semana",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "00939f87-7e4d-4ce3-ad6c-1ac03b214447",
+        "partitions": [
+          {
+            "name": "dias_semana",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WMlTSUUrJz83MS89XitWJVjIC8otT00vzUhJ101IzixLBosZA0ZLUosPLkQVNgIKFpYlFJciCpmDBzDwUQTOwoRUoYuYgscSkxBSgvbEA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t, #\"Coluna 2\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", Int64.Type}, {\"Coluna 2\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"Coluna 1\", \"id\"}, {\"Coluna 2\", \"dia_da_semana\"}}),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Colunas Renomeadas\",\"sabado\",\"sábado\",Replacer.ReplaceText,{\"dia_da_semana\"})",
+                "in",
+                "    #\"Valor Substituído\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
