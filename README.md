@@ -12,3 +12,9 @@
 <p><img src="https://github.com/njunior93/portfolio-powerBi/blob/0c9ac13dce40cef3fe411aced513bb07840966d0/Acidentes_transito_2017/imagem.JPG"></p>
 <p>Para conferir: <a href="https://app.powerbi.com/groups/me/reports/d109b107-9a9b-4ce6-988f-53d5e4fa4aab/fcc3a2dbb89480b6cb72?experience=power-bi" target="_blank">Clique aqui</a></p>
 <p><a href="https://github.com/njunior93/portfolio-powerBi/tree/395ba8fc0c16f8383a3721d9483bf0e5c9835024/Analise%20Banking%202" target="_blank">Arquivo</a></p>
+
+<h2>Painel exercicio Curso Preditiva</h2>
+<h3>Painel</h3>
+<p><img src="https://github.com/njunior93/portfolio-powerBi/blob/fae322f0d1460f403fc352a5533f78db6b576fec/Painel%20Curso%20Preditiva/imagem.JPG"></p>
+<p>Para conferir: <a href="https://app.powerbi.com/groups/me/reports/2f214623-30d1-4b98-baab-a51095dbf9f6/e265e843010628607b09?experience=power-bi">Clique aqui</a></p>
+<p><a href="https://github.com/njunior93/portfolio-powerBi/tree/fae322f0d1460f403fc352a5533f78db6b576fec/Painel%20Curso%20Preditiva" target="_blank">Arquivo</a></p>
