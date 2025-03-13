@@ -3,7 +3,7 @@
 
 <h2>Analise Bancario I </h2>
 <h3>Painel</h3>
-<p><img src="https://github.com/njunior93/portfolio-powerBi/tree/90669a1c61cb72fe7a559190a12f4a1ae2c7ed36/Analise%20Banking%20I/imagem.jpg"></p>
+<p><img src="https://github.com/njunior93/portfolio-powerBi/blob/acef83beadd6d3ad0285f389efc1b790baee49a5/Analise%20Banking%20I/imagem.jpg"></p>
 <p>Para conferir: <a href=https://app.powerbi.com/groups/me/reports/2ceaa7d7-d4a4-4fe5-ae9e-3f062abc842d/d7851e83ace52388aca5?experience=power-b" target="_blank">Clique aqui</a></p>
 <p><a href="https://github.com/njunior93/portfolio-powerBi/tree/395ba8fc0c16f8383a3721d9483bf0e5c9835024/Analise%20Banking%202" target="_blank">Arquivo</a></p>
 
