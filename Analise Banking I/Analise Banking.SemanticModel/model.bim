@@ -1,0 +1,2107 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"bank-full\",\"tabela_meses\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1203.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "bankfull": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "bank-full": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "bank full": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "bank-complete": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "bank-entire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "bank-whole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "bank complete": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "bank entire": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "bank whole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "series full": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "set full": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "row full": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "tier full": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "bankfull.aceitou": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Aceitou"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aceitou": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.campanha": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Campanha"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "campanha": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.campanha_anterior": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Campanha Anterior"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "campanha anterior": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.contato": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Contato"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "contato": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.crédito": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Crédito"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "crédito": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Data"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "bankfull.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.dias_do_último_contato": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Dias do último contato"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dias do último contato": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.duração": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Duração"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "duração": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.educação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Educação"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "educação": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.empréstimo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Empréstimo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "empréstimo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.estado_civil": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Estado Civil"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estado civil": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.faixa_idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "faixa_idade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faixa idade": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "faixa_idade": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "bankfull.faixa_qtdcontato": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "faixa_qtdcontatos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "faixa qtdcontato": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "faixa_qtdcontatos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Faixa de quantidade de contatos": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "bankfull.hipoteva": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Hipoteva"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hipoteva": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Idade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Mês"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.mês_nome": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Mês nome"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mês nome": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mê nome": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "bankfull.qtde_de_contato": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Qtde de Contatos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtde de contato": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.saldo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Saldo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "saldo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "bankfull.trabalho": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "bank-full",
+                    "ConceptualProperty": "Trabalho"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trabalho": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabela_mese": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "tabela_meses"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tabela mese": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tabela_meses": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "tabela_mese.nome_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "tabela_meses",
+                    "ConceptualProperty": "Nome_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Nome_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Mês": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "tabela_mese.numero_me": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "tabela_meses",
+                    "ConceptualProperty": "Numero_mes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "numero me": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Numero_mes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "bankfull_has_aceitou": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.aceitou"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_aceitous",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.aceitou": {
+                    "Target": {
+                      "Entity": "bankfull.aceitou"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_campanha": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.campanha"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_campanhas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.campanha": {
+                    "Target": {
+                      "Entity": "bankfull.campanha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_campanha_anterior": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.campanha_anterior"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_campanha_anterior",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.campanha_anterior": {
+                    "Target": {
+                      "Entity": "bankfull.campanha_anterior"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_contato": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.contato"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_contatos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.contato": {
+                    "Target": {
+                      "Entity": "bankfull.contato"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_crédito": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.crédito"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_créditos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.crédito": {
+                    "Target": {
+                      "Entity": "bankfull.crédito"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_data": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.data"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.data": {
+                    "Target": {
+                      "Entity": "bankfull.data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.dia"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.dia": {
+                    "Target": {
+                      "Entity": "bankfull.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_dias_do_último_contato": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.dias_do_último_contato"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_dias_do_último_contatos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.dias_do_último_contato": {
+                    "Target": {
+                      "Entity": "bankfull.dias_do_último_contato"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_duração": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.duração"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_duraçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.duração": {
+                    "Target": {
+                      "Entity": "bankfull.duração"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_educação": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.educação"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_educaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.educação": {
+                    "Target": {
+                      "Entity": "bankfull.educação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_empréstimo": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.empréstimo"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_empréstimos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.empréstimo": {
+                    "Target": {
+                      "Entity": "bankfull.empréstimo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_estado_civil": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.estado_civil"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_estado_civil",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.estado_civil": {
+                    "Target": {
+                      "Entity": "bankfull.estado_civil"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_faixa_idade": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.faixa_idade"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_faixa_idades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.faixa_idade": {
+                    "Target": {
+                      "Entity": "bankfull.faixa_idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_faixa_qtdcontato": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.faixa_qtdcontato"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_faixa_qtdcontatos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.faixa_qtdcontato": {
+                    "Target": {
+                      "Entity": "bankfull.faixa_qtdcontato"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_hipoteva": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.hipoteva"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_hipotevas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.hipoteva": {
+                    "Target": {
+                      "Entity": "bankfull.hipoteva"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_idade": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.idade"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_idades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.idade": {
+                    "Target": {
+                      "Entity": "bankfull.idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.mê"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.mê": {
+                    "Target": {
+                      "Entity": "bankfull.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_qtde_de_contato": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.qtde_de_contato"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_qtde_de_contatos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.qtde_de_contato": {
+                    "Target": {
+                      "Entity": "bankfull.qtde_de_contato"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_saldo": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.saldo"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_saldos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.saldo": {
+                    "Target": {
+                      "Entity": "bankfull.saldo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_tabela_mese": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabela_mese"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_tabela_meses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull"
+                      },
+                      "Subject": {
+                        "Role": "tabela_mese"
+                      }
+                    },
+                    "ID": "tabela_meses_have_bankfull",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "tabela_mese": {
+                    "Nouns": [
+                      {
+                        "mês nome": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "tabela_mese"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "bankfull_has_trabalho": {
+                "Binding": {
+                  "ConceptualEntity": "bank-full"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "bankfull.trabalho"
+                      },
+                      "Subject": {
+                        "Role": "bankfull"
+                      }
+                    },
+                    "ID": "bankfull_have_trabalhos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "bankfull": {
+                    "Target": {
+                      "Entity": "bankfull"
+                    }
+                  },
+                  "bankfull.trabalho": {
+                    "Target": {
+                      "Entity": "bankfull.trabalho"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabela_mese_has_nome_me": {
+                "Binding": {
+                  "ConceptualEntity": "tabela_meses"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabela_mese.nome_me"
+                      },
+                      "Subject": {
+                        "Role": "tabela_mese"
+                      }
+                    },
+                    "ID": "tabela_meses_have_nome_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabela_mese": {
+                    "Target": {
+                      "Entity": "tabela_mese"
+                    }
+                  },
+                  "tabela_mese.nome_me": {
+                    "Target": {
+                      "Entity": "tabela_mese.nome_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabela_mese_has_numero_me": {
+                "Binding": {
+                  "ConceptualEntity": "tabela_meses"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabela_mese.numero_me"
+                      },
+                      "Subject": {
+                        "Role": "tabela_mese"
+                      }
+                    },
+                    "ID": "tabela_meses_have_numero_me",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabela_mese": {
+                    "Target": {
+                      "Entity": "tabela_mese"
+                    }
+                  },
+                  "tabela_mese.numero_me": {
+                    "Target": {
+                      "Entity": "tabela_mese.numero_me"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "0c7e05b7-9303-1917-0748-20d20dd7dc33",
+        "fromColumn": "Mês nome",
+        "fromTable": "bank-full",
+        "toColumn": "Nome_mes",
+        "toTable": "tabela_meses"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "bank-full",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Idade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "83f4571c-5be9-422a-af4f-80d23b4dc0bd",
+            "sourceColumn": "Idade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Trabalho",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "416ad436-c125-4b57-98ad-f4e3c8ed8587",
+            "sourceColumn": "Trabalho",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Estado Civil",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "089e508c-bd91-489c-844a-e53f240897ff",
+            "sourceColumn": "Estado Civil",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Educação",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0ac51a35-ffe7-446d-a2e0-cf19ce16f27d",
+            "sourceColumn": "Educação",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Crédito",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d7138762-f2d7-4f38-9f4b-32a904e0418f",
+            "sourceColumn": "Crédito",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Saldo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "01b71bf2-2727-491b-84be-c059ce5b6c28",
+            "sourceColumn": "Saldo",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Hipoteva",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "64d73e49-efc1-48f3-b351-a8e3357a59cf",
+            "sourceColumn": "Hipoteva",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Empréstimo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1d8065c1-296c-4a5a-be6f-a3d74bfae219",
+            "sourceColumn": "Empréstimo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Contato",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2ce2fabe-cae8-4883-8f08-a8181f3e9807",
+            "sourceColumn": "Contato",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "80c967fe-964d-46a7-8098-cac9ec081b55",
+            "sourceColumn": "Dia",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cbe68ee6-af59-4148-8e74-3bc35544c87f",
+            "sourceColumn": "Mês",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Duração",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c0061e91-0dc6-4a6f-b2e9-cfae2e226a60",
+            "sourceColumn": "Duração",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Campanha",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9428cb5a-f94d-4fa7-ab3e-d6a92dbff131",
+            "sourceColumn": "Campanha",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Dias do último contato",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0cbe889c-3644-45ad-8eed-645223fde1d9",
+            "sourceColumn": "Dias do último contato",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Qtde de Contatos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "decb1e19-78b2-4de5-9831-4f7f74bb3746",
+            "sourceColumn": "Qtde de Contatos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Campanha Anterior",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d56c85da-aa2b-4942-b56f-f48d8e66bae3",
+            "sourceColumn": "Campanha Anterior",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Aceitou",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eee14552-164f-4d84-b9af-869f43452b19",
+            "sourceColumn": "Aceitou",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eddecc89-9816-4966-8829-fe5224c804cd",
+            "sourceColumn": "Data",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_idade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b0671c13-c2c1-4394-a970-1e8a1f37e36d",
+            "sourceColumn": "faixa_idade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Mês nome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "    SWITCH('bank-full'[Mês], ",
+              "         1, \"Janeiro\",",
+              "         2, \"Fevereiro\",",
+              "         3, \"Março\",",
+              "         4, \"Abril\",",
+              "         5, \"Maio\",",
+              "         6, \"Junho\",",
+              "         7, \"Julho\",",
+              "         8, \"Agosto\",",
+              "         9, \"Setembro\",",
+              "         10, \"Outubro\",",
+              "         11, \"Novembro\",",
+              "         12, \"Dezembro\"",
+              "    )"
+            ],
+            "lineageTag": "a3e5f96c-7d80-4ea4-802a-f9535fb830f8",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "faixa_qtdcontatos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "869c77f8-5a3c-4a02-950b-8781c6cc4684",
+            "sourceColumn": "faixa_qtdcontatos",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "dfe52a50-90a9-4f82-b690-8da49cebc761",
+        "partitions": [
+          {
+            "name": "bank-full",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\Junior\\Documents\\Power BI Curso Preditiva\\bank-full.xlsx\"), null, true),",
+                "    #\"bank-full_Sheet\" = Fonte{[Item=\"bank-full\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(#\"bank-full_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\",{{\"Idade\", Int64.Type}, {\"Trabalho\", type text}, {\"Estado Civil\", type text}, {\"Educação\", type text}, {\"Crédito\", type text}, {\"Saldo\", Int64.Type}, {\"Hipoteva\", type text}, {\"Empréstimo\", type text}, {\"Contato\", type text}, {\"Dia\", Int64.Type}, {\"Mês\", Int64.Type}, {\"Duração\", Int64.Type}, {\"Campanha\", Int64.Type}, {\"Dias do último contato\", Int64.Type}, {\"Qtde de Contatos\", Int64.Type}, {\"Campanha Anterior\", type text}, {\"Aceitou\", type text}, {\"Data\", Int64.Type}}),",
+                "    #\"Coluna Condicional Adicionada\" = Table.AddColumn(#\"Tipo Alterado\", \"Personalizar\", each if [Idade] <= 25 then \"18 a 25 anos\" else if [Idade] <= 35 then \"26 a 35 anos\" else if [Idade] <= 45 then \"36 a 45 anos\" else if [Idade] <= 55 then \"46 a 55 anos\" else \"56 anos (ou +)\"),",
+                "    #\"Colunas Reordenadas\" = Table.ReorderColumns(#\"Coluna Condicional Adicionada\",{\"Trabalho\", \"Estado Civil\", \"Educação\", \"Crédito\", \"Saldo\", \"Hipoteva\", \"Empréstimo\", \"Contato\", \"Dia\", \"Mês\", \"Duração\", \"Campanha\", \"Dias do último contato\", \"Qtde de Contatos\", \"Campanha Anterior\", \"Aceitou\", \"Data\", \"Idade\", \"Personalizar\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Colunas Reordenadas\",{{\"Personalizar\", \"faixa_idade\"}}),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Colunas Renomeadas\",{{\"Data\", type text}}),",
+                "    #\"Coluna Condicional Adicionada1\" = Table.AddColumn(#\"Tipo Alterado1\", \"Personalizar\", each if [Qtde de Contatos] <= 5 then \"0 a 5\" else if [Qtde de Contatos] <= 10 then \"6 a 10\" else if [Qtde de Contatos] <= 16 then \"11 a 16\" else if [Qtde de Contatos] <= 22 then \"17 a 22\" else if [Qtde de Contatos] <= 28 then \"23 a 28\" else \"29 (ou +)\"),",
+                "    #\"Colunas Reordenadas1\" = Table.ReorderColumns(#\"Coluna Condicional Adicionada1\",{\"Trabalho\", \"Estado Civil\", \"Educação\", \"Crédito\", \"Saldo\", \"Hipoteva\", \"Empréstimo\", \"Contato\", \"Dia\", \"Mês\", \"Duração\", \"Campanha\", \"Dias do último contato\", \"Campanha Anterior\", \"Aceitou\", \"Data\", \"Idade\", \"faixa_idade\", \"Qtde de Contatos\", \"Personalizar\"}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Colunas Reordenadas1\", each true),",
+                "    #\"Colunas Renomeadas1\" = Table.RenameColumns(#\"Linhas Filtradas\",{{\"Personalizar\", \"faixa_qtdcontatos\"}})",
+                "in",
+                "    #\"Colunas Renomeadas1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_d5632c8b-185e-4088-9c9a-b7fba9a0118a",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "3095d27d-6059-4f49-a4e7-8c2445c9dd65",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "d8e5a45c-d742-4e2f-b2b3-1fc867aabea9",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f63ba804-abe9-4e6a-acf2-8a9595da0e07",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "c2a79bc4-f77b-4bb9-9f72-20f93b4d5156",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1a89e768-1c87-4246-b3cc-097ea30a012b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "e3a6566c-8575-4942-8dd5-cb8ba793fabc",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f157e6b4-e625-48df-a44f-eab96086b35e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "8112f10c-5729-4aab-818c-01c703cd98d3",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "db5938e9-73ba-45a1-ba00-76d12d4efd31",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "1da3ba8b-d590-4293-a3f0-8cfddcc7ac60",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "08379090-52be-40fd-896f-d8471272c3b6",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "f1a70608-10b4-4c06-aa65-1a869f25170a"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b2ac8a2a-8309-44cb-bb39-cd7752e1c0af",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_d5632c8b-185e-4088-9c9a-b7fba9a0118a",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tabela_meses",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Numero_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataCategory": "Uncategorized",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "95c087bf-50e6-4613-924a-c875046c66a0",
+            "sourceColumn": "Numero_mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nome_mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7da0e283-01ba-4572-8da6-486efa577e39",
+            "sortByColumn": "Numero_mes",
+            "sourceColumn": "Nome_mes",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c509061d-ad4e-42c3-a7d0-0c02e44a2a2d",
+        "partitions": [
+          {
+            "name": "tabela_meses",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WMlTSUfJKzEvNLMpXitWJVjIC8t1Sy1KL4CLGQBHfxKLDyyFcEyDXMakoMwfMMwVLZkKkzEBmleZlQHjmYF4OlGcB0paeX1wC4VoCucGpJam5SVBbDA2AIv6lJaVwAZDL/PLLkJSA3OaSWgUViQUA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t, #\"Coluna 2\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", Int64.Type}, {\"Coluna 2\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"Coluna 1\", \"Numero_mes\"}, {\"Coluna 2\", \"Nome_mes\"}})",
+                "in",
+                "    #\"Colunas Renomeadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
